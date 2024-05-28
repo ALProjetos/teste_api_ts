@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "prestart": "chmod +x node_modules/.bin/ts-node",
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "dev": "npx ts-node src/index.ts",
