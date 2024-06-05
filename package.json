@@ -2,12 +2,12 @@
   "name": "teste_api_ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "prestart": "chmod +x node_modules/.bin/ts-node",
     "build": "tsc",
-    "start": "ts-node src/index.js",
-    "dev": "npx ts-node src/index.js",
+    "start": "ts-node src/index.ts",
+    "dev": "npx ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
